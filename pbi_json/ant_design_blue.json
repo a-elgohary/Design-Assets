@@ -2,15 +2,15 @@
 	"name": "Power BI Theme Generator - BIBB.PRO v2.04",
 	"$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.143.json",
 	"dataColors": [
-        "#025df4",
-        "#db6bcf",
-        "#2498d1",
-        "#bbbde6",
-        "#4045b1",
-        "#007e99",
-        "#f19d92",
-        "#60bac8"
-    ],
+		"#025df4",
+		"#db6bcf",
+		"#2498d1",
+		"#bbbde6",
+		"#4045b1",
+		"#007e99",
+		"#f19d92",
+		"#60bac8"
+	],
 	"textClasses": {
 		"callout": {
 			"color": "#161616",
@@ -79,7 +79,7 @@
 								"color": "#E6E6E6"
 							}
 						},
-						"ignorePadding":false,
+						"ignorePadding": false,
 						"width": 1
 					}
 				],
@@ -214,7 +214,7 @@
 							}
 						}
 					},
-										{
+					{
 						"$id": "disabled",
 						"transparency": 0,
 						"fillColor": {
@@ -230,7 +230,7 @@
 					},
 					{
 						"$id": "default",
-						"lineColor":{
+						"lineColor": {
 							"solid": {
 								"color": "#d9d9d9"
 							}
@@ -240,7 +240,7 @@
 					},
 					{
 						"$id": "hover",
-						"lineColor":{
+						"lineColor": {
 							"solid": {
 								"color": "#1890ff"
 							}
@@ -250,7 +250,7 @@
 					},
 					{
 						"$id": "selected",
-						"lineColor":{
+						"lineColor": {
 							"solid": {
 								"color": "#096dd9"
 							}
@@ -306,7 +306,7 @@
 								"color": "#bfbfbf"
 							}
 						}
-					}								
+					}
 				],
 				"shadow": [
 					{
@@ -314,7 +314,7 @@
 					},
 					{
 						"$id": "default",
-						"color":{
+						"color": {
 							"solid": {
 								"color": "#000000"
 							}
@@ -348,7 +348,160 @@
 					}
 				]
 			},
-			"Primary Button": {
+			"Link": {
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"fill": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#f0f0f0"
+							}
+						}
+					}
+				],
+				"outline": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"lineColor": {
+							"solid": {
+								"color": "#d9d9d9"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					},
+					{
+						"$id": "hover",
+						"lineColor": {
+							"solid": {
+								"color": "#1890ff"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					},
+					{
+						"$id": "selected",
+						"lineColor": {
+							"solid": {
+								"color": "#096dd9"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					}
+				],
+				"text": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#1890ff"
+							}
+						}
+					},
+					{
+						"$id": "hover",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#91d5ff"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#096dd9"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#bfbfbf"
+							}
+						}
+					}
+				],
+				"shadow": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"color": {
+							"solid": {
+								"color": "#000000"
+							}
+						},
+						"transparency": 70,
+						"angle": 90,
+						"shadowBlur": 24,
+						"shadowDistance": 24,
+						"shadowPositionPreset": "custom"
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangleRounded",
+						"roundEdge": 8
+					}
+				]
+			},
+			"Primary": {
 				"border": [
 					{
 						"show": false
@@ -401,7 +554,7 @@
 					},
 					{
 						"$id": "default",
-						"lineColor":{
+						"lineColor": {
 							"solid": {
 								"color": "#d9d9d9"
 							}
@@ -411,7 +564,7 @@
 					},
 					{
 						"$id": "hover",
-						"lineColor":{
+						"lineColor": {
 							"solid": {
 								"color": "#1890ff"
 							}
@@ -421,7 +574,7 @@
 					},
 					{
 						"$id": "selected",
-						"lineColor":{
+						"lineColor": {
 							"solid": {
 								"color": "#096dd9"
 							}
@@ -431,7 +584,7 @@
 					},
 					{
 						"$id": "disabled",
-						"lineColor":{
+						"lineColor": {
 							"solid": {
 								"color": "#d9d9d9"
 							}
@@ -487,7 +640,7 @@
 								"color": "#bfbfbf"
 							}
 						}
-					}								
+					}
 				],
 				"shadow": [
 					{
@@ -495,7 +648,7 @@
 					},
 					{
 						"$id": "default",
-						"color":{
+						"color": {
 							"solid": {
 								"color": "#000000"
 							}
@@ -529,60 +682,149 @@
 					}
 				]
 			},
-			"Text Button": {
+			"Danger": {
+				"border": [
+					{
+						"show": false
+					}
+				],
 				"fill": [
 					{
 						"show": true
 					},
 					{
 						"$id": "default",
-						"transparency": 100
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#f0f0f0"
+							}
+						}
+					}
+				],
+				"outline": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"lineColor": {
+							"solid": {
+								"color": "#ff4d4f"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
 					},
 					{
 						"$id": "hover",
-						"fillColor": {
+						"lineColor": {
 							"solid": {
-								"color": "#2166AC"
+								"color": "#ff7875"
 							}
 						},
-						"transparency": 97
+						"transparency": 0,
+						"weight": 1
 					},
 					{
 						"$id": "selected",
-						"show": true,
-						"fillColor": {
+						"lineColor": {
 							"solid": {
-								"color": "#2166AC"
+								"color": "#f5222d"
 							}
 						},
-						"transparency": 85
+						"transparency": 0,
+						"weight": 1
+					}
+				],
+				"text": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#ff4d4f"
+							}
+						}
+					},
+					{
+						"$id": "hover",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#ff7875"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#f5222d"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#bfbfbf"
+							}
+						}
 					}
 				],
 				"shadow": [
 					{
+						"show": false
+					},
+					{
 						"$id": "default",
-						"show": true
+						"color": {
+							"solid": {
+								"color": "#000000"
+							}
+						},
+						"transparency": 70,
+						"angle": 90,
+						"shadowBlur": 24,
+						"shadowDistance": 24,
+						"shadowPositionPreset": "custom"
 					}
-				],				
-				"icon": [
+				],
+				"padding": [
 					{
-						"show": true
+						"bottom": 0
 					},
 					{
-						"$id": "default",
-						"horizontalAlignment": "left",
-						"verticalAlignment": "middle",
-						"placement": "custom",
-						"shapeType": "custom",
-						"iconSize": 20
+						"top": 0
 					},
 					{
-						"$id": "selected",
-						"horizontalAlignment": "left",
-						"verticalAlignment": "middle",
-						"placement": "custom",
-						"shapeType": "custom",
-						"iconSize": 19
+						"left": 0
+					},
+					{
+						"right": 0
 					}
 				],
 				"shape": [
@@ -590,69 +832,159 @@
 						"$id": "default",
 						"tileShape": "rectangleRounded",
 						"roundEdge": 8
-					}
-				],
-				"text": [
-					{
-						"$id": "default",
-						"leftMargin": 10
 					}
 				]
 			},
-			"Danger Button": {
+			"Danger Text": {
+				"border": [
+					{
+						"show": false
+					}
+				],
 				"fill": [
 					{
 						"show": true
 					},
 					{
 						"$id": "default",
-						"transparency": 100
+						"transparency": 100,
+						"fillColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
 					},
 					{
 						"$id": "hover",
+						"transparency": 0,
 						"fillColor": {
 							"solid": {
-								"color": "#2166AC"
+								"color": "#fff1f0"
 							}
-						},
-						"transparency": 97
+						}
 					},
 					{
 						"$id": "selected",
-						"show": true,
+						"transparency": 0,
 						"fillColor": {
 							"solid": {
-								"color": "#2166AC"
+								"color": "#ffccc7"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"transparency": 100,
+						"fillColor": {
+							"solid": {
+								"color": "#f0f0f0"
+							}
+						}
+					}
+				],
+				"outline": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"lineColor": {
+							"solid": {
+								"color": "#ff4d4f"
 							}
 						},
-						"transparency": 85
+						"transparency": 0,
+						"weight": 1
+					},
+					{
+						"$id": "hover",
+						"lineColor": {
+							"solid": {
+								"color": "#ff7875"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					},
+					{
+						"$id": "selected",
+						"lineColor": {
+							"solid": {
+								"color": "#f5222d"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					}
+				],
+				"text": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#ff4d4f"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#f5222d"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#bfbfbf"
+							}
+						}
 					}
 				],
 				"shadow": [
 					{
+						"show": false
+					},
+					{
 						"$id": "default",
-						"show": true
+						"color": {
+							"solid": {
+								"color": "#000000"
+							}
+						},
+						"transparency": 70,
+						"angle": 90,
+						"shadowBlur": 24,
+						"shadowDistance": 24,
+						"shadowPositionPreset": "custom"
 					}
-				],				
-				"icon": [
+				],
+				"padding": [
 					{
-						"show": true
+						"bottom": 0
 					},
 					{
-						"$id": "default",
-						"horizontalAlignment": "left",
-						"verticalAlignment": "middle",
-						"placement": "custom",
-						"shapeType": "custom",
-						"iconSize": 20
+						"top": 0
 					},
 					{
-						"$id": "selected",
-						"horizontalAlignment": "left",
-						"verticalAlignment": "middle",
-						"placement": "custom",
-						"shapeType": "custom",
-						"iconSize": 19
+						"left": 0
+					},
+					{
+						"right": 0
 					}
 				],
 				"shape": [
@@ -661,11 +993,335 @@
 						"tileShape": "rectangleRounded",
 						"roundEdge": 8
 					}
+				]
+			},
+			"Danger Fill": {
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#ff4d4f"
+							}
+						}
+					},
+					{
+						"$id": "hover",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#ff7875"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#f5222d"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#f0f0f0"
+							}
+						}
+					}
+				],
+				"outline": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"lineColor": {
+							"solid": {
+								"color": "#d9d9d9"
+							}
+						},
+						"transparency": 100,
+						"weight": 1
+					},
+					{
+						"$id": "hover",
+						"lineColor": {
+							"solid": {
+								"color": "#1890ff"
+							}
+						},
+						"transparency": 100,
+						"weight": 1
+					},
+					{
+						"$id": "selected",
+						"lineColor": {
+							"solid": {
+								"color": "#096dd9"
+							}
+						},
+						"transparency": 100,
+						"weight": 1
+					},
+					{
+						"$id": "disabled",
+						"lineColor": {
+							"solid": {
+								"color": "#d9d9d9"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					}
 				],
 				"text": [
 					{
+						"show": true
+					},
+					{
 						"$id": "default",
-						"leftMargin": 10
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
+					},
+					{
+						"$id": "hover",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#bfbfbf"
+							}
+						}
+					}
+				],
+				"shadow": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"color": {
+							"solid": {
+								"color": "#000000"
+							}
+						},
+						"transparency": 70,
+						"angle": 90,
+						"shadowBlur": 24,
+						"shadowDistance": 24,
+						"shadowPositionPreset": "custom"
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangleRounded",
+						"roundEdge": 8
+					}
+				]
+			},
+			"Text Gray": {
+				"border": [
+					{
+						"show": false
+					}
+				],
+				"fill": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"transparency": 100,
+						"fillColor": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						}
+					},
+					{
+						"$id": "hover",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#f0f0f0"
+							}
+						}
+					},
+					{
+						"$id": "selected",
+						"transparency": 0,
+						"fillColor": {
+							"solid": {
+								"color": "#d9d9d9"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"transparency": 100,
+						"fillColor": {
+							"solid": {
+								"color": "#f0f0f0"
+							}
+						}
+					}
+				],
+				"outline": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"lineColor": {
+							"solid": {
+								"color": "#ff4d4f"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					},
+					{
+						"$id": "hover",
+						"lineColor": {
+							"solid": {
+								"color": "#ff7875"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					},
+					{
+						"$id": "selected",
+						"lineColor": {
+							"solid": {
+								"color": "#f5222d"
+							}
+						},
+						"transparency": 0,
+						"weight": 1
+					}
+				],
+				"text": [
+					{
+						"show": true
+					},
+					{
+						"$id": "default",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#161616"
+							}
+						}
+					},
+					{
+						"$id": "disabled",
+						"fontSize": 12,
+						"horizontalAlignment": "center",
+						"verticalAlignment": "middle",
+						"fontColor": {
+							"solid": {
+								"color": "#bfbfbf"
+							}
+						}
+					}
+				],
+				"shadow": [
+					{
+						"show": false
+					},
+					{
+						"$id": "default",
+						"color": {
+							"solid": {
+								"color": "#000000"
+							}
+						},
+						"transparency": 70,
+						"angle": 90,
+						"shadowBlur": 24,
+						"shadowDistance": 24,
+						"shadowPositionPreset": "custom"
+					}
+				],
+				"padding": [
+					{
+						"bottom": 0
+					},
+					{
+						"top": 0
+					},
+					{
+						"left": 0
+					},
+					{
+						"right": 0
+					}
+				],
+				"shape": [
+					{
+						"$id": "default",
+						"tileShape": "rectangleRounded",
+						"roundEdge": 8
 					}
 				]
 			}
