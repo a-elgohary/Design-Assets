@@ -1,6 +1,6 @@
 {
-	"name": "Power BI Theme Generator - BIBB.PRO v2.04",
-	"$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.143.json",
+	"name": "PBI Theme by Abdullah El-Gohary V 1.0",
+	"$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.149.json",
 	"dataColors": [
 		"#025df4",
 		"#db6bcf",
@@ -12,25 +12,25 @@
 		"#60bac8"
 	],
 	"textClasses": {
-		"callout": {
-			"color": "#161616",
-			"fontFace": "Segoe UI"
+	"callout": {
+		"fontFace": "Segoe UI Bold",
+		"fontSize": 40,
+		"color": "#111827"
 		},
-		"header": {
-			"color": "#161616",
-			"fontFace": "Segoe UI"
+	"title": {
+		"fontFace": "Segoe UI Semibold",
+		"fontSize": 14,
+		"color": "#111827"
 		},
-		"label": {
-			"color": "#161616",
-			"fontFace": "Segoe UI"
+	"label": {
+		"fontFace": "Segoe UI",
+		"fontSize": 11,
+		"color": "#6B7280"
 		},
-		"largeTitle": {
-			"color": "#161616",
-			"fontFace": "Segoe UI Semibold"
-		},
-		"title": {
-			"color": "#161616",
-			"fontFace": "Segoe UI Semibold"
+	"header": {
+		"fontFace": "Segoe UI Semibold",
+		"fontSize": 16,
+		"color": "#111827"
 		}
 	},
 	"bad": "#ee1c25",
@@ -45,7 +45,7 @@
 	"thirdLevelElements": "#E0E0E0",
 	"fourthLevelElements": "#C6C6C6",
 	"background": "#FFFFFF",
-	"secondaryBackground": "#f4f4f4",
+	"secondaryBackground": "#F1F3F6",
 	"visualStyles": {
 		"*": {
 			"*": {
@@ -236,7 +236,7 @@
 							}
 						},
 						"transparency": 0,
-						"weight": 1
+						"weight": 1.5
 					},
 					{
 						"$id": "hover",
@@ -246,7 +246,7 @@
 							}
 						},
 						"transparency": 0,
-						"weight": 1
+						"weight": 1.5
 					},
 					{
 						"$id": "selected",
@@ -256,7 +256,7 @@
 							}
 						},
 						"transparency": 0,
-						"weight": 1
+						"weight": 1.5
 					}
 				],
 				"text": [
@@ -723,7 +723,7 @@
 							}
 						},
 						"transparency": 0,
-						"weight": 1
+						"weight": 1.5
 					},
 					{
 						"$id": "hover",
@@ -733,7 +733,7 @@
 							}
 						},
 						"transparency": 0,
-						"weight": 1
+						"weight": 1.5
 					},
 					{
 						"$id": "selected",
@@ -743,7 +743,7 @@
 							}
 						},
 						"transparency": 0,
-						"weight": 1
+						"weight": 1.5
 					}
 				],
 				"text": [
@@ -1054,7 +1054,7 @@
 							}
 						},
 						"transparency": 100,
-						"weight": 1
+						"weight": 1.5
 					},
 					{
 						"$id": "hover",
@@ -1064,7 +1064,7 @@
 							}
 						},
 						"transparency": 100,
-						"weight": 1
+						"weight": 1.5
 					},
 					{
 						"$id": "selected",
@@ -1074,7 +1074,7 @@
 							}
 						},
 						"transparency": 100,
-						"weight": 1
+						"weight": 1.5
 					},
 					{
 						"$id": "disabled",
@@ -1084,7 +1084,7 @@
 							}
 						},
 						"transparency": 0,
-						"weight": 1
+						"weight": 1.5
 					}
 				],
 				"text": [
@@ -1829,11 +1829,18 @@
 						"transparency": 0
 					}
 				],
+				"pageSize": [
+					{
+						"pageSizeTypes": "Custom",
+						"pageSizeWidth": 1920,
+						"pageSizeHeight": 1080
+					}
+				],
 				"outspacePane": [
 					{
 						"backgroundColor": {
 							"solid": {
-								"color": "#F1F3F6"
+								"color": "#FFFFFF"
 							}
 						}
 					}
@@ -1843,7 +1850,7 @@
 						"$id": "Available",
 						"backgroundColor": {
 							"solid": {
-								"color": "#F1F3F6"
+								"color": "#F1F3F6" 
 							}
 						},
 						"foregroundColor": {
